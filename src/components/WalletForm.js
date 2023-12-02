@@ -47,8 +47,10 @@ const WalletForm = () => {
         setErrors({});
         
         console.log('Form submitted and data stored in Firestore.');
+        window.alert('Data successfully submitted to Firestore!');
       } catch (error) {
         console.error('Error storing data in Firestore:', error);
+        window.alert('Error submitting data to Firestore. Please try again.');
       }
     } else {
       console.log('Form has errors. Please correct them.');
