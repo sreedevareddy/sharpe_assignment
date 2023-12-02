@@ -1,3 +1,11 @@
+## Instructions to run the appplication:
+1. Download the repository or open your terminal and then type git clone https://github.com/sreedevareddy/sharpe_assignment
+2. In terminal cd into the new folder and type npm install to install all necessary pakages
+3. Now run the application using npm run
+
+
+# Deployed Link : https://sharpe-web.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
